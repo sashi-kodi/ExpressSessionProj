@@ -1,0 +1,21 @@
+<!doctype>
+<html>
+<head>
+    
+</head>
+    <body>
+    <form method="POST" action="http://localhost:3000/login">
+        <% if (message.length >0) { %>
+        <div><%= message %></div>
+       <% } %>
+        Username: 
+        <input type="text" name="username" placeholder="Enter username here">
+        <br>
+        Password:
+        <input type="password" name="passwd" placeholder="Enter password">
+        <br>
+        
+        <button>Login</button>
+    </form>
+    </body>
+</html>
