@@ -3,7 +3,7 @@ var app=express();
 var bodyparser = require('body-parser');
 var ejs= require('ejs');
 var router = express.Router();
-var users=[{name:'sashi', password:'pass'}];
+var users=[{name:'veda', password:'pass'}];
 
 var session = require('express-session');
 app.use(session({
